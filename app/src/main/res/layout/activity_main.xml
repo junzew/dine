@@ -21,7 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="随机"
+        android:text="Random"
         android:id="@+id/bt"
         android:layout_marginLeft="16dp"
         android:layout_toRightOf="@id/tv"

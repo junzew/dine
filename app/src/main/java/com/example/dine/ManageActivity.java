@@ -37,7 +37,7 @@ public class ManageActivity extends Activity {
             public void onClick(View v) {
                 String text = mEditText.getText().toString();
                 mEditText.setText("");
-                Toast.makeText(ManageActivity.this,text + "added",Toast.LENGTH_SHORT).show();
+                Toast.makeText(ManageActivity.this,text + " added",Toast.LENGTH_SHORT).show();
                 SQLiteDatabase db = mDbHelper.getWritableDatabase();
                 ContentValues values = new ContentValues();
                 values.put(Contract.Entry.COLUMN_NAME_RESTAURANT, text);
